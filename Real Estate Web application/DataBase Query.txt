@@ -1,0 +1,41 @@
+
+#RealEstate Data Base:-
+
+create database RealEstate;
+use RealEstate;
+
+
+
+#RoleID Table:-
+
+create table RoleId8039(roleid8039 int primary key,rolename8039 varchar (10));
+insert into roleid8039 values(101,'Seller'),(102,'Buyer'),(103,'Admin');
+
+
+
+#User Details Table:-
+
+create table UserDetails8039(ROLEID8039 INT ,
+constraint fkroleid foreign key (ROLEID8039) references RoleId8039(roleid8039),
+NAME8039 varchar(50) not null,
+EMAIL8039 varchar(100) primary key,
+ PASSWORD8039 varchar(100) not null, 
+ CONTACTNUMBER8039 numeric(10) unique);
+
+
+
+#Property Details Table:-
+ 
+ create table PropertyDetails8039(propertyid8039 int primary key AUTO_INCREMENT,location8039 varchar(100),
+type8039 varchar(100),amount8039 int,availability8039 varchar(20),EMAIL8039 varchar(100),
+ constraint fkproemail foreign key (EMAIL8039) references UserDetails8039(EMAIL8039),
+ VALIDATE8039 varchar(20));
+
+
+# BookProperty Details:-
+
+create table BookPropertyDetails8039(propertyid8039 int,EMAIL8039 varchar(100),Date8039 date,
+ constraint fkemail foreign key (EMAIL8039) references UserDetails8039(EMAIL8039),
+ constraint fkpropertyid foreign key (propertyid8039) references PropertyDetails8039(propertyid8039));
+
+

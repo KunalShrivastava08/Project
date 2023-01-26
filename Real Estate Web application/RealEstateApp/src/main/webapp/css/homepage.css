@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image: url("https://cardinalpropertycare.com/wp-content/uploads/2019/11/Successful-Property.jpg");
+	background-size: 100% ;
+	background-repeat: no-repeat;
+}
+.heading{
+	   font-size: 51px;
+    font-family: -webkit-pictograph;
+    /* color: #00024B; */
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font-weight: bolder;
+    color: #0000ff;
+    text-shadow: 0px 3px 2px black;
+}
+.btn-primary {
+    box-shadow: 5px 5px 11px -2px grey !important;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin: 57px 128px;
+}
+

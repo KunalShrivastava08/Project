@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image: url("https://thumbs.dreamstime.com/b/male-hand-holding-house-icon-blue-background-property-insurance-security-concept-real-estate-concept-banner-copy-space-214703246.jpg");
+	background-size: 100% ;
+	background-repeat: no-repeat;
+}
+.heading{
+	   font-size: 36px;
+    font-family: -webkit-pictograph;
+    /* color: #00024B; */
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font-weight: bolder;
+    color: #0000ad;
+    text-shadow: 0px 3px 2px black;
+}
+
+.btn-primary {
+    box-shadow: 5px 5px 11px -2px grey !important;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}

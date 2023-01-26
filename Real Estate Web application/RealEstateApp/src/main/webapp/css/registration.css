@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image: url("https://media.istockphoto.com/photos/little-wooden-home-in-bright-white-kitchen-new-home-concept-picture-id1184506685?k=6&m=1184506685&s=612x612&w=0&h=w969knnjr071banfaZiYGFo1i0BvEWeQs7WfL1LmkhM=");
+	background-size: 100% ;
+	background-repeat: no-repeat;
+}
+.btn-primary {
+    box-shadow: 5px 5px 11px -2px grey !important;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.table{
+	position: relative;
+	top: 31px;
+	left: 10px;
+}
+.heading{
+	 font-size: 36px;
+    font-family: -webkit-pictograph;
+    /* color: #00024B; */
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font-weight: bolder;
+    color: #0000ad;
+    text-shadow: 0px 3px 2px black;
+}
